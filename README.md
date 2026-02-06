@@ -1,7 +1,7 @@
 # 使用STM32F103C8T6读取由9个ICM42605组成的阵列数据
 
 [![Language](https://img.shields.io/badge/Language-C-green?logo=github&logoColor=white)](https://github.com/410659962/9-IMU-Array-Data-Acquisition.git)
-[![Platform](https://img.shields.io/badge/ST-STM32F103C8T6-blue?style=for-the-badge&logo=stmicroelectronics&logoColor=white)](https://github.com/410659962/9-IMU-Array-Data-Acquisition.git)
+[![Platform](https://img.shields.io/badge/ST-STM32F103C8T6-green?logo=stmicroelectronics&logoColor=white)](https://github.com/410659962/9-IMU-Array-Data-Acquisition.git)
 
 STM32F103C8T6 的底层程序通过 SPI 协议同步采集 9 个 ICM-42605 传感器的加速度和角速度数据，并以 100Hz 的频率通过串行端口将数据发送至上层的 Qt 系统。
 
